@@ -15,3 +15,10 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+  - name: "gallery"
+    label: "Gallery" 
+    widget: "list"
+    optional: true
+    fields:
+     - {label: "Title", name: "imgTitle", widget: "string"}
+     - {label: "Gallery Image", name: "imgSrc", widget: "image"}
